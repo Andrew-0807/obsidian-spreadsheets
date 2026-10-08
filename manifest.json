@@ -3,7 +3,7 @@
 	"name": "Sheets and Formulas",
 	"version": "1.2.0",
 	"minAppVersion": "1.4.0",
-	"description": "Spreadsheet files with a full editor, plus Excel-style formulas like =SUM(B:B) in markdown tables. Works on mobile.",
+	"description": "Create spreadsheet files with a full editor and use Excel-style formulas in Markdown tables. Works on mobile.",
 	"author": "Andrew-0807",
 	"authorUrl": "https://github.com/Andrew-0807",
 	"isDesktopOnly": false

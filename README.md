@@ -3,7 +3,7 @@
 Spreadsheets inside Obsidian, on desktop and mobile:
 
 1. **`.sheet` files**: full spreadsheet editor (formatting, formulas, filter and sort, merged cells) based on [FortuneSheet](https://github.com/ruilisi/fortune-sheet).
-2. **Formulas in markdown tables**: write `=SUM(B:B)` in any table cell of a normal note and see the result in Reading view and Live Preview. The note keeps the formula text.
+2. **Formulas in Markdown tables**: write `=SUM(B:B)` in any table cell of a normal note and see the result in Reading view and Live Preview. The note keeps the formula text.
 
 Based on [Spreadsheets](https://github.com/divamgupta/obsidian-spreadsheets) by Divam Gupta, with bug fixes, mobile support and table formulas. See [CHANGELOG.md](CHANGELOG.md) for what changed.
 
@@ -19,7 +19,7 @@ Create one with the "New spreadsheet" ribbon button, the command palette, or by 
 
 On a tablet: double-tap a cell (or tap the **fx** bar) to type, long-press for the context menu, use the **Σ** toolbar button to sum the cells above.
 
-## Formulas in markdown tables
+## Formulas in Markdown tables
 
 ```
 | Item | Price | Qty | Total  |
