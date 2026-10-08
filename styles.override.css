@@ -1,0 +1,5 @@
+/* Plugin layout, appended after fortune-sheet's own CSS into styles.css by the build. */
+.spreadsheet-view.view-content { padding: 0; overflow: hidden; }
+.spreadsheet-container { height: 100%; color: black; }
+.spreadsheet-error { padding: 1em; color: var(--text-error); }
+.sheet-formula-cell { font-variant-numeric: tabular-nums; text-decoration: underline dotted var(--text-faint); }
