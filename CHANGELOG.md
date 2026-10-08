@@ -2,6 +2,7 @@
 
 ## 1.2.0
 
+- Renamed to "Sheets and Formulas" (id `sheets-and-formulas`) for separate publishing.
 - Formulas in markdown tables, in Reading view and Live Preview (`formula.ts`, `tables.ts`).
 - Whole-column and whole-row ranges ignore the formula's own cell.
 

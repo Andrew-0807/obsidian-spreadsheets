@@ -1,11 +1,17 @@
-# Obsidian Spreadsheets Plugin
+# Sheets and Formulas
 
 Spreadsheets inside Obsidian, on desktop and mobile:
 
 1. **`.sheet` files**: full spreadsheet editor (formatting, formulas, filter and sort, merged cells) based on [FortuneSheet](https://github.com/ruilisi/fortune-sheet).
 2. **Formulas in markdown tables**: write `=SUM(B:B)` in any table cell of a normal note and see the result in Reading view and Live Preview. The note keeps the formula text.
 
-Fork of [divamgupta/obsidian-spreadsheets](https://github.com/divamgupta/obsidian-spreadsheets). See [CHANGELOG.md](CHANGELOG.md) for what changed.
+Based on [Spreadsheets](https://github.com/divamgupta/obsidian-spreadsheets) by Divam Gupta, with bug fixes, mobile support and table formulas. See [CHANGELOG.md](CHANGELOG.md) for what changed.
+
+## Install
+
+Until it is listed in Community plugins: download `main.js`, `manifest.json` and `styles.css` from the [latest release](https://github.com/Andrew-0807/obsidian-spreadsheets/releases/latest) into `<vault>/.obsidian/plugins/sheets-and-formulas/`, then enable "Sheets and Formulas" in Settings > Community plugins.
+
+Do not enable it together with the original Spreadsheets plugin, both open `.sheet` files.
 
 ## Spreadsheet files
 
@@ -37,6 +43,6 @@ npm test        # data, formula and table tests
 npm run build   # type check, then main.js + styles.css
 ```
 
-Copy `main.js`, `manifest.json` and `styles.css` to `<vault>/.obsidian/plugins/spreadsheets/`.
+Copy `main.js`, `manifest.json` and `styles.css` to `<vault>/.obsidian/plugins/sheets-and-formulas/`.
 
 `styles.css` is generated: FortuneSheet's CSS plus `styles.override.css`. Edit the override file, not `styles.css`.

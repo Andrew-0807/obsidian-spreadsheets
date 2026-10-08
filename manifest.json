@@ -1,10 +1,10 @@
 {
-	"id": "spreadsheets",
-	"name": "Spreadsheets",
+	"id": "sheets-and-formulas",
+	"name": "Sheets and Formulas",
 	"version": "1.2.0",
 	"minAppVersion": "1.4.0",
-	"description": "Plugin to create spreadsheets in Obsidian.",
-	"author": "Divam Gupta",
-	"authorUrl": "https://divam.io",
+	"description": "Spreadsheet files with a full editor, plus Excel-style formulas like =SUM(B:B) in markdown tables. Works on mobile.",
+	"author": "Andrew-0807",
+	"authorUrl": "https://github.com/Andrew-0807",
 	"isDesktopOnly": false
 }
